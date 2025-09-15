@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSIDE 360 - Маркетинговое агентство</title>
+    <link rel="stylesheet" href="stylessmm.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="#" class="logo" data-page="home">
+            <div class="logo-icon"><img src="img/logo.svg"></div>
+            INSIDE <span>360</span>
+        </a>
+        
+        <nav>
+            <ul id="navMenu">
+                <li><a href="#" class="nav-link active" data-page="home">Главная</a></li>
+                <li><a href="#" class="nav-link" data-page="services">Услуги</a></li>
+                <li><a href="#" class="nav-link" data-page="portfolio">Портфолио</a></li> <!-- Добавлена страница портфолио -->
+                <li><a href="#" class="nav-link" data-page="contacts">Контакты</a></li>
+            </ul>
+        </nav>
+        
+        <button class="contact-button" id="openFormBtn">ОБСУДИТЬ ПРОЕКТ</button>
+        
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+    </header>
+    
+    
+    <!-- Page Content -->
+    <div class="page-content">
+        <!-- Home Page -->
+        <section id="home" class="page-section active">
+            <!-- Banner Section -->
+            <div class="banner-container">
+                <div class="banner-slide slide-1 active">
+                    <div class="banner-content">
+                        <h1 class="banner-title">Управление социальными сетями: <span>притягиваем клиентов</span> через "ВКонтакте", Telegram, Instagram и другие платформы.</h1>
+                        <button class="discuss-btn">ОБСУДИТЬ ПРОЕКТ</button>
+                    </div>
+                </div>
+                
+                <div class="banner-slide slide-2">
+                    <div class="banner-content">
+                        <h1 class="banner-title">Продвижение бизнеса: <span>увеличиваем охват</span> и вовлеченность аудитории в социальных сетях</h1>
+                        <button class="discuss-btn">ОБСУДИТЬ ПРОЕКТ</button>
+                    </div>
+                </div>
+                
+                <div class="banner-slide slide-3">
+                    <div class="banner-content">
+                        <h1 class="banner-title">Создаем уникальный контент: <span>привлекаем внимание</span> и строим доверительные отношения с клиентами</h1>
+                        <button class="discuss-btn">ОБСУДИТЬ ПРОЕКТ</button>
+                    </div>
+                </div>
+                
+                <div class="banner-indicators">
+                    <div class="indicator active" data-slide="0"></div>
+                    <div class="indicator" data-slide="1"></div>
+                    <div class="indicator" data-slide="2"></div>
+                </div>
+            </div>
+            
+            <!-- Services Navigation -->
+            <h2 class="section-title">Наши услуги</h2>
+            
+            <div class="services-nav">
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3 class="service-title">SMM</h3>
+                    <p class="service-desc">Продвижение бизнеса в социальных сетях с использованием современных инструментов маркетинга</p>
+                </div>
+                
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-title">САЙТЫ</h3>
+                    <p class="service-desc">Создание продающих сайтов и интернет-магазинов с адаптивным дизайном и высокой конверсией</p>
+                </div>
+                
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="service-title">КОНТЕКСТЫ И SEO</h3>
+                    <p class="service-desc">Привлечение целевой аудитории с помощью контекстной рекламы и поисковой оптимизации</p>
+                </div>
+                
+                <div class="service-card" data-page="services">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3 class="service-title">ЛИСТИНГ</h3>
+                    <p class="service-desc">Размещение товаров на маркетплейсах и оптимизация карточек для увеличения продаж</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Services Page -->
+        <section id="services" class="page-section">
+            <div class="service-header">
+                <h2 class="section-title">Наши услуги</h2>
+                <p>Комплексные решения для вашего бизнеса</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-hashtag"></i>
+                    </div>
+                    <h3 class="service-detail-title">SMM</h3>
+                    <p>Ведение социальных сетей: привлекаем клиентов из «ВКонтакте», Telegram, Instagram и других социальных площадок</p>
+                    
+                    <ul class="service-features">
+                        <li>Анализируем вашу бизнес-вселенную</li>
+                        <li>Вступаем в контакт с вашим аккаунтом</li>
+                        <li>Приводим дизайн-упаковку в космический вид</li>
+                        <li>Продвигаем аккаунт до галактических высот</li>
+                        <li>Отправляем отчет о прогрессе</li>
+                    </ul>
+                    
+                    <div class="service-price">от 35 000 руб/мес</div>
+                    <button class="discuss-btn">Заказать услугу</button>
+                </div>
+                
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="service-detail-title">Сайты</h3>
+                    <p>Сделаем сайт, который нужен именно вашему бизнесу. Веб разработкой займутся лучшие
+                    умы галактики</p>
+                    
+                    <ul class="service-features">
+                        <li>знакомимся с вашей бизнес-вселенной</li>
+                        <li>синтезируем прайслист и wireframe сайта</li>
+                        <li>создаем космический дизайн-проект</li>
+                        <li>пишем FRONT-END, BACK-END НА ОСНОВЕ ДИЗАЙНА</li>
+                        <li>СДАЕМ ГОТОВЫЙ звёздный ПРОЕКТ</li>
+                    </ul>
+                    
+                    <div class="service-price">от 35 000 руб</div>
+                    <button class="discuss-btn">Заказать услугу</button>
+                </div>
+                
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-detail-title">Контексты и SEO</h3>
+                    <p>Займёмся продвижением сайта, настроим контекстную рекламу, которая принесет результат</p>
+                    
+                    <ul class="service-features">
+                        <li>анализируем вашу бизнес-вселенную</li>
+                        <li>Собираем семантическое ядро</li>
+                        <li>Синтезируем рекламный космокабинет</li>
+                        <li>Устанавливаем системы аналитики</li>
+                        <li>Ведем рекламную кампанию, отчетность</li>
+                    </ul>
+                    
+                    <div class="service-price">от 90 000 руб/мес</div>
+                    <button class="discuss-btn">Заказать услугу</button>
+                </div>
+                
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="service-detail-title">Листинг</h3>
+                    <p>Добавим подробную информацию о вашей компании в поисковые системы и карты Google и Яндекс
+                    и возьмёмся за её продвижение</p>
+                    
+                    <ul class="service-features">
+                        <li>Регистрируем ваш бизнес на карте</li>
+                        <li>Вступаем в контакт с аккаунтами</li>
+                        <li>Настраиваем системы управления и добавляем информацию</li>
+                        <li>Улучшаем эффективность полёта</li>
+                        <li>ОтправЛЯЕМ ОТЧЕТ О прогрессе полёта</li>
+                    </ul>
+                    
+                    <div class="service-price">от 12 000 руб/мес</div>
+                    <button class="discuss-btn">Заказать услугу</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Page -->
+            <section id="portfolio" class="page-section">
+                <div class="service-header">
+                    <h2 class="section-title">Наше портфолио</h2>
+                    <p>Реализованные проекты и успешные кейсы</p>
+                </div>
+                
+                <!-- Фильтры -->
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Все проекты</button>
+                    <button class="filter-btn" data-filter="smm">SMM</button>
+                    <button class="filter-btn" data-filter="sites">Сайты</button>
+                    <button class="filter-btn" data-filter="seo">SEO</button>
+                    <button class="filter-btn" data-filter="listing">Листинг</button>
+                </div>
+                
+                <!-- Сетка проектов -->
+                <div class="portfolio-grid">
+                    <!-- Проект 1 -->
+                    <div class="portfolio-card" data-category="smm">
+                        <div class="portfolio-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://greatlist.ru/wp-content/uploads/2024/02/More-More-4-2.jpg')"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Продвижение ресторана "МореВкуса"</h3>
+                            <span class="portfolio-category">SMM</span>
+                            <p class="portfolio-desc">Полное ведение социальных сетей, увеличение охвата на 300% и повышение продаж на 45% за 3 месяца.</p>
+                            <a href="#" class="portfolio-link">Посмотреть проект <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 2 -->
+                    <div class="portfolio-card" data-category="sites">
+                        <div class="portfolio-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Интернет-магазин "TechGadgets"</h3>
+                            <span class="portfolio-category">Сайты</span>
+                            <p class="portfolio-desc">Разработка современного интернет-магазина электроники с системой управления заказами и интеграцией с 1С.</p>
+                            <a href="#" class="portfolio-link">Посмотреть проект <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 3 -->
+                    <div class="portfolio-card" data-category="seo">
+                        <div class="portfolio-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">SEO для сети стоматологий "ДентоМир"</h3>
+                            <span class="portfolio-category">SEO</span>
+                            <p class="portfolio-desc">Оптимизация сайта и продвижение в поисковых системах. Рост органического трафика на 180% за 6 месяцев.</p>
+                            <a href="#" class="portfolio-link">Посмотреть проект <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 4 -->
+                    <div class="portfolio-card" data-category="listing">
+                        <div class="portfolio-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1607082350899-7e105aa886ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Листинг для бренда "EcoHome"</h3>
+                            <span class="portfolio-category">Листинг</span>
+                            <p class="portfolio-desc">Размещение товаров на Wildberries и Ozon, оптимизация карточек, увеличение продаж на 120% за 4 месяца.</p>
+                            <a href="#" class="portfolio-link">Посмотреть проект <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 5 -->
+                    <div class="portfolio-card" data-category="smm">
+                        <div class="portfolio-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">SMM для фитнес-центра "EnergyFit"</h3>
+                            <span class="portfolio-category">SMM</span>
+                            <p class="portfolio-desc">Разработка контент-стратегии, ведение сообществ, увеличение вовлеченности на 85% и продаж абонементов на 60%.</p>
+                            <a href="#" class="portfolio-link">Посмотреть проект <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <!-- Проект 6 -->
+                    <div class="portfolio-card" data-category="sites">
+                        <div class="portfolio-image" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80')"></div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Корпоративный сайт "СтройГарант"</h3>
+                            <span class="portfolio-category">Сайты</span>
+                            <p class="portfolio-desc">Разработка современного сайта строительной компании с каталогом проектов и системой онлайн-заказов.</p>
+                            <a href="#" class="portfolio-link">Посмотреть проект <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Кнопка загрузки больше проектов -->
+                <div class="text-center" style="margin: 40px 0;">
+                    <button class="discuss-btn" id="loadMore">Показать еще</button>
+                </div>
+            </section>
+        
+        <!-- Contacts Page -->
+        <section id="contacts" class="page-section">
+            <div class="service-header">
+                <h2 class="section-title">Наши контакты</h2>
+                <p>Свяжитесь с нами любым удобным способом</p>
+            </div>
+            
+            <div class="contacts-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"><img src="img/Frame.svg"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 class="contact-title">Основной офис</h3>
+                            <p class="contact-desc">г. Владивосток, Океанский проспект, 101а</p>
+                            <p class="contact-desc">г. Находка, улица Сенявина, 12</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"><img src="img/ru.png"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 class="contact-title">Телефоны</h3>
+                            <p class="contact-desc">+7 (924) 000-97-96</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"><img src="img/Frames.svg"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3 class="contact-title">Режим работы</h3>
+                            <p class="contact-desc">Понедельник - Пятница: 9:00 - 18:00</p>
+                            <p class="contact-desc">Суббота - Воскресенье: выходной</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://m.vk.com/inside360ru?from=groups" class="social-link">
+                            <i class="fab fa-vk"><img src="img/VK.svg"></i>
+                        </a>
+                        <a href="https://t.me/inside360" class="social-link">
+                            <i class="fab fa-telegram"><img src="img/Telegram.svg"></i>
+                        </a>
+                        <a href="https://instagram.com/inside360.ru?igshid=MzRlODBiNWFlZA==" class="social-link">
+                            <i class="fab fa-instagram"><img src="img/Instagram.svg"></i>
+                        </a>
+                        <a href="https://wa.me/79240025330" class="social-link">
+                            <i class="fab fa-whatsapp"><img src="img/WhatsApp.svg"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"><img src="img/logo.svg"></i>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+    </div>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+
+                <!-- тест -->
+                <div class="footer-links">
+                    <h3 class="footer-title">Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="nav-link" data-page="home">Главная</a></li>
+                        <li><a href="#" class="nav-link" data-page="services">Услуги</a></li>
+                        <li><a href="#" class="nav-link" data-page="portfolio">Портфолио</a></li>
+                        <li><a href="#" class="nav-link" data-page="contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <!-- тест -->
+
+                <p class="copyright">INSIDE360. Все права защищены</p>
+                <a href="#" class="policy-link">Политика обработки персональных данных</a>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Popup Form -->
+    <div class="form-popup" id="projectForm">
+        <div class="form-container">
+            <button class="close-button" id="closeForm">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2 class="form-title">Обсудим ваш проект</h2>
+            <p class="form-subtitle">Наш менеджер свяжется с вами в ближайшие 10 минут</p>
+            
+            <form id="projectDiscussionForm">
+                <div class="form-group">
+                    <label for="name" class="form-label">Ваше имя</label>
+                    <input type="text" id="name" class="form-input" placeholder="Иван Иванов" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="phone" class="form-label">Телефон</label>
+                    <input type="tel" id="phone" class="form-input" placeholder="+7 (999) 999-99-99" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="service" class="form-label">Интересующая услуга</label>
+                    <select id="service" class="form-input">
+                        <option value="smm">SMM Продвижение</option>
+                        <option value="sites">Создание сайтов</option>
+                        <option value="context">Контекстная реклама</option>
+                        <option value="seo">SEO Оптимизация</option>
+                        <option value="listing">Листинг на маркетплейсах</option>
+                    </select>
+            
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Сообщение (необязательно)</label>
+                    <textarea id="message" class="form-input" rows="3" placeholder="Расскажите о своем проекте..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation functionality
+            const navLinks = document.querySelectorAll('.nav-link');
+            const serviceCards = document.querySelectorAll('.service-card');
+            const sections = document.querySelectorAll('.page-section');
+            const menuToggle = document.getElementById('menuToggle');
+            const navMenu = document.getElementById('navMenu');
+            
+            // Function to change active page
+            function changePage(pageId) {
+                // Update active nav link
+                navLinks.forEach(link => {
+                    if (link.dataset.page === pageId) {
+                        link.classList.add('active');
+                    } else {
+                        link.classList.remove('active');
+                    }
+                });
+                
+                // Show selected section
+                sections.forEach(section => {
+                    if (section.id === pageId) {
+                        section.classList.add('active');
+                    } else {
+                        section.classList.remove('active');
+                    }
+                });
+                
+                // Close mobile menu
+                navMenu.classList.remove('active');
+            }
+            
+            // Add event listeners to nav links
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    changePage(this.dataset.page);
+                });
+            });
+            
+            // Add event listeners to service cards
+            serviceCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    changePage(this.dataset.page);
+                });
+            });
+            
+            // Mobile menu toggle
+            menuToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+            });
+            
+            // Banner slider functionality
+            const slides = document.querySelectorAll('.banner-slide');
+            const indicators = document.querySelectorAll('.indicator');
+            let currentSlide = 0;
+            let slideInterval;
+            
+            // Function to show slide
+            function showSlide(index) {
+                // Hide all slides
+                slides.forEach(slide => slide.classList.remove('active'));
+                indicators.forEach(indicator => indicator.classList.remove('active'));
+                
+                // Show current slide
+                slides[index].classList.add('active');
+                indicators[index].classList.add('active');
+                
+                currentSlide = index;
+            }
+            
+            // Auto slide change
+            function nextSlide() {
+                let next = currentSlide + 1;
+                if (next >= slides.length) next = 0;
+                showSlide(next);
+            }
+            
+            // Set interval for auto slide
+            function startSlider() {
+                slideInterval = setInterval(nextSlide, 5000);
+            }
+            
+            startSlider();
+            
+            // Add click events to indicators
+            indicators.forEach((indicator, index) => {
+                indicator.addEventListener('click', () => {
+                    clearInterval(slideInterval);
+                    showSlide(index);
+                    startSlider();
+                });
+            });
+            
+            // Form popup functionality
+            const formPopup = document.getElementById('projectForm');
+            const openFormButtons = document.querySelectorAll('.discuss-btn, .contact-button, #openFormBtn');
+            const closeFormButton = document.getElementById('closeForm');
+            const projectForm = document.getElementById('projectDiscussionForm');
+            
+            // Open form function
+            function openForm() {
+                formPopup.classList.add('active');
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            }
+            
+            // Close form function
+            function closeForm() {
+                formPopup.classList.remove('active');
+                document.body.style.overflow = ''; // Enable scrolling
+            }
+            
+            // Add event listeners to open buttons
+            openFormButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    if (!this.classList.contains('contact-button')) {
+                        e.preventDefault();
+                    }
+                    openForm();
+                });
+            });
+            
+            // Close form when close button is clicked
+            closeFormButton.addEventListener('click', closeForm);
+            
+            // Close form when clicking outside the form
+            formPopup.addEventListener('click', function(e) {
+                if (e.target === formPopup) {
+                    closeForm();
+                }
+            });
+            
+            // Form submission
+            projectForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Get form values
+                const name = document.getElementById('name').value;
+                const phone = document.getElementById('phone').value;
+                const service = document.getElementById('service').value;
+                
+                // In a real application, you would send this data to a server
+                console.log('Отправлена заявка:', { name, phone, service });
+                
+                // Show success message
+                alert(`Спасибо, ${name}! Ваша заявка на услугу "${getServiceName(service)}" принята. Мы свяжемся с вами по номеру ${phone} в ближайшее время.`);
+                
+                // Reset form and close
+                projectForm.reset();
+                closeForm();
+            });
+            
+            // Helper function to get service name
+            function getServiceName(value) {
+                const services = {
+                    'smm': 'SMM Продвижение',
+                    'sites': 'Создание сайтов',
+                    'context': 'Контекстная реклама',
+                    'seo': 'SEO Оптимизация',
+                    'listing': 'Листинг на маркетплейсах'
+                };
+                return services[value] || 'Услуга';
+            }
+            
+            // Page transition animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            // Observe all elements that should animate
+            document.querySelectorAll('.service-card, .service-detail-card, .contact-item').forEach(el => {
+                el.style.opacity = 0;
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+        });
+        const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioCards = document.querySelectorAll('.portfolio-card');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Удаляем активный класс у всех кнопок
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            // Добавляем активный класс текущей кнопке
+            button.classList.add('active');
+            
+            const filter = button.dataset.filter;
+            
+            // Показываем/скрываем проекты
+            portfolioCards.forEach(card => {
+                if (filter === 'all' || card.dataset.category === filter) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+    });
+    
+    // Загрузка дополнительных проектов
+    const loadMoreBtn = document.getElementById('loadMore');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', function() {
+            // В реальном проекте здесь будет AJAX-запрос
+            alert('Загрузка дополнительных проектов...');
+            // Здесь будет код для загрузки дополнительных проектов
+        });
+    }
+    
+    // ======== ОБНОВЛЕННЫЙ КОД НАВИГАЦИИ ========
+    
+    // Добавляем обработчики для новой страницы
+    const navLinks = document.querySelectorAll('.nav-link');
+    const sections = document.querySelectorAll('.page-section');
+    
+    // Функция смены страниц
+    function changePage(pageId) {
+        // Обновляем активную ссылку в навигации
+        navLinks.forEach(link => {
+            if (link.dataset.page === pageId) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+        
+        // Показываем выбранную секцию
+        sections.forEach(section => {
+            if (section.id === pageId) {
+                section.classList.add('active');
+            } else {
+                section.classList.remove('active');
+            }
+        });
+        
+        // Закрываем мобильное меню
+        navMenu.classList.remove('active');
+        
+        // Прокрутка вверх при смене страниц
+        window.scrollTo(0, 0);
+    }
+    
+    // Добавляем обработчик для всех навигационных ссылок
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            changePage(this.dataset.page);
+        });
+    });
+    
+    </script>
+</body>
+</html>
